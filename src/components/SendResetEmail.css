@@ -1,0 +1,143 @@
+/* Styles généraux de la page de réinitialisation de mot de passe */
+.reset-password-page {
+  display: flex;
+  height: 100vh;
+  background-color: white;
+}
+
+/* Section de l'image de réinitialisation de mot de passe */
+.reset-password-image-section {
+  width: 50%;
+  height: 100vh;
+  background: url('./io.png') no-repeat center top;
+  background-size: cover;
+}
+
+/* Conteneur de la section de réinitialisation de mot de passe */
+.reset-password-form-section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Conteneur du formulaire de réinitialisation de mot de passe */
+.reset-password-form-container {
+  background: white;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Logo de la page de réinitialisation de mot de passe */
+.login-logo {
+  background: url('./logoo.png') no-repeat center center;
+  background-size: contain;
+  height: 40px;
+  width: 178px;
+  margin-bottom: 28px;
+}
+
+.reset-password-button {
+  background-color: white;
+  color: #034DA3;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.login-error {
+  color: red;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+
+
+.login-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.89px;
+  text-align: left; /* Align text to the left */
+  color: #213A7D;
+  margin-bottom: 20px;
+  width: 300%; /* Ensure the title takes up the full width */
+}
+
+
+
+/* Formulaire de réinitialisation de mot de passe */
+.reset-password-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #697386;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  background: #FFFFFF;
+  border: 1px solid #D9DCE1;
+  border-radius: 5px;
+  padding: 13.5px 12px;
+  width: 100%;
+}
+
+.login-button {
+  background: #034DA3;
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding: 6px 16px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 209px;
+  height: 44px;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.login-button:hover {
+  background-color: #023781;
+}
+
+.password-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+input[type="password"], input[type="text"] {
+  flex-grow: 1;
+  padding-right: 30px;
+}
+
+.password-icon {
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #A3ACB9;
+  cursor: pointer;
+}

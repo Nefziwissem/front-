@@ -1,0 +1,38 @@
+.payments-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 80px; /* Add margin to avoid header overlap */
+  padding-left: 20px;
+}
+
+.h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Couleur de votre titre */
+  margin-bottom: 20px;
+}
+
+.payments-section2 {
+  display: flex;
+  gap: 20px;
+  border-bottom: 2px solid #E0E0E0; /* Ligne de séparation sous la navigation */
+}
+
+.navigation-text {
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+  padding: 10px 15px;
+  text-align: center;
+  white-space: nowrap; /* Pour empêcher le texte de se couper */
+}
+
+.navigation-text:hover {
+  color: #007BFF; /* Couleur au survol */
+}
+
+.navigation-text.active {
+  color: #007BFF; /* Couleur active */
+  border-bottom: 2px solid #007BFF; /* Ligne sous l'élément actif */
+}

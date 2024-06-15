@@ -1,0 +1,15 @@
+.desactivate-button, .reactivate-button {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container img {
+  width: 24px;
+  height: 24px;
+}

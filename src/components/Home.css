@@ -1,0 +1,147 @@
+/* Container for the entire page */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(500vh - 60px); /* Ajustez selon la hauteur de votre header */
+}
+
+/* Form and display section */
+.form-display-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form section */
+.form-section {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Display section */
+.display-section {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Title and button container */
+.title-and-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.add-user-button {
+  display: block;
+  margin: 20px auto; /* Centre le bouton horizontalement */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-user-button:hover {
+  background-color: #0056b3; /* Couleur de survol */
+}
+
+.page-title {
+    font-size: 24px;
+    color: #034DA3;
+    /* Ajustez la taille de la police */
+    font-weight: bold;
+    text-align: center; /* Centre le texte */
+    margin-bottom: 20px; /* Ajoute un espace en bas */
+}
+
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse; /* Supprime les espaces entre les cellules */
+  margin-bottom: 10px;
+}
+.h6{   
+  
+  color:  rgb(7, 7, 7);
+  padding: 10px;  
+
+  text-align: left;}
+.table-header th {
+  background-color: #EAF4FF;
+
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd; /* Ajoute une bordure de bas */
+}
+
+.table-rows tr {
+  border-bottom: 1px solid #ddd; /* Ajoute une bordure de bas à chaque ligne */
+}
+
+.table-rows td {
+  padding: 10px;
+  text-align: left;
+}
+
+.actions-cell {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button img,
+.delete-button img,
+.reactivate-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.toggle-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.mo1o {
+  background-color: white;
+  color: #007bff; /* Couleur de texte bleu pour correspondre au bouton Ajouter */
+}
+
+.moo:hover {
+  background-color: #f0f0f0; /* Couleur de survol */
+}
+
+.mo {
+  background-color: #007bff;
+  color: white;
+}
+
+.mo:hover {
+  background-color: #0056b3; /* Couleur de survol */
+}
+
+.modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

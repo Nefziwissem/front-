@@ -1,0 +1,119 @@
+/* Styles généraux de la page de connexion */
+.login-page {
+  display: flex;
+  height: 100vh;
+  background-color: white; /* Optionnel : couleur de fond pour la page */
+}
+
+/* Section de l'image de connexion */
+.login-image {
+  width: 50%;
+  height: 100vh;
+  background-size: cover;
+  background: url('./io.png') no-repeat center center;
+  position: fixed;
+  right: 0;
+}
+
+/* Conteneur de la section de connexion */
+.login-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Conteneur du formulaire de connexion */
+.login-form-container {
+  background: white;
+  padding: 40px; /* Ajustez le padding selon vos besoins */
+  width: 400px; /* Largeur fixe pour le conteneur */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo de la page de connexion */
+.login-logo {
+
+
+  background: url('../components/logoo.png') no-repeat center center;
+  background-size: contain;
+  height: 40px; /* Ajustez la hauteur en fonction de la taille de votre logo */
+  width: 100%; /* Pour s'assurer qu'il prend la largeur complète du conteneur */
+  margin-bottom: 28px;
+}
+
+.reset-password-button {
+  background-color: white;
+  color: #034DA3;
+  border: none; /* Remove border */
+  text-decoration: underline; /* Add underline to text */
+  cursor: pointer;
+  margin-top: 10px; /* Space between buttons */
+  padding: 0; /* Remove padding */
+}
+
+.login-error {
+  color: red;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.login-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.89px;
+  text-align: center; /* Centrer le titre */
+  color: #213A7D;
+  margin-bottom: 20px; /* Espace entre le titre et le formulaire */
+}
+
+/* Formulaire de connexion */
+.login-form {
+  width: 100%; /* Prendre la largeur complète du conteneur */
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Espace entre les groupes de champs */
+}
+
+/* Étiquette du formulaire */
+.form-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #697386;
+  margin-bottom: 5px; /* Espace entre l'étiquette et le champ de saisie */
+}
+
+/* Champ de saisie du formulaire */
+.form-input {
+  background: #FFFFFF;
+  border: 1px solid #D9DCE1;
+  border-radius: 5px;
+  padding: 13.5px 12px;
+  width: 100%; /* Largeur complète */
+}
+
+/* Bouton de connexion */
+.login-button {
+  background: #034DA3;
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding: 6px 16px;
+  cursor: pointer;
+  width: 209px; /* Largeur fixe */
+  height: 44px; /* Hauteur fixe */
+  align-self: center; /* Centrer le bouton horizontalement */
+  margin-top: 20px; /* Espace au-dessus du bouton */
+}
+
+.login-button:hover {
+  background-color: #023781;
+}

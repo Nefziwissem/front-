@@ -1,0 +1,119 @@
+.cargeback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9fafc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 900px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.cargeback-container h3 {
+    font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.89px;
+  text-align: center; /* Center the title */
+  color: #023781;
+  margin-bottom: 20px; /* Space between the title and the form */
+}
+
+.l-image {
+    background: url('./pp.png') no-repeat center center;
+    background-size: contain;
+    width: 580px;
+    height: 280px;
+    margin-bottom: 50px;
+    margin-left: 820px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-list {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.file-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.file-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.view-buttn, .download-buttn, .delete-buttn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 14px;
+}
+
+.view-buttn:hover, .download-buttn:hover, .delete-buttn:hover {
+    text-decoration: underline;
+}
+
+
+.buttn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background: #034DA3;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.buttn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.upload-buttn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.upload-buttn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: .2px;
+    cursor: pointer; 
+    color:  #034DA3;;     background: white;
+
+    font-size: 16px;
+    flex: 1;
+    margin: 0 10px; /* Space between buttons */
+    display: inline-block;
+}
+
+.upload-buttn:hover {
+    opacity: 0.8;
+}
+
+
+.buttn:hover {
+    opacity: 0.8;
+}
